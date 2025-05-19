@@ -1,13 +1,62 @@
-ABOUT THE PROJECT *
-This project aims to develop a machine learning model that classifies mushrooms as edible or poisonous based on their physical characteristics. Using data from the UCI Mushroom Classification Dataset, we analyze key features such as cap shape, color, gill structure, and odor to train a predictive model.
-By leveraging classification algorithms like Decision Trees, Random Forests, and Neural Networks, the model learns to distinguish between safe and toxic mushrooms. The goal is to create an accurate and reliable tool that can assist in mushroom identification.
+# 🍄 Mushroom Classification Using Machine Learning
 
-⚠️ Disclaimer: This model is for educational purposes only and should not be used as a substitute for expert knowledge. Misidentification of mushrooms can be dangerous, and users should always consult a mycologist before consuming wild mushrooms.
+This project focuses on building a machine learning model to classify mushrooms as **edible** or **poisonous** based on their physical characteristics. Leveraging the **UCI Mushroom Dataset**, the project applies various classification algorithms to achieve high accuracy and reliable predictions.
 
+---
 
-##Logistic Regression Model's Accuracy  : 64 %
-##SVM Model's Accuracy  : 91 %
-##KNN Model's Accuracy  : 99 %
-##Naive Bayes Claddifier Model's Accuracy  : 64 %
-##Decision Tree Model's Accuracy  : 98 %
-##Random Forest Model's Accuracy  : 99 %
+## 📌 Project Objective
+
+To develop a predictive model that classifies mushrooms using features such as:
+
+- Cap shape & surface
+- Cap color
+- Gill attachment & spacing
+- Stalk shape & size
+- Odor
+- Habitat
+- Spore print color
+
+By applying multiple classification algorithms, the model learns to distinguish between edible and poisonous mushrooms effectively.
+
+---
+
+## ⚙️ Machine Learning Models and Accuracy
+
+| Model                         | Accuracy     |
+|------------------------------|--------------|
+| Logistic Regression          | 64%          |
+| Support Vector Machine (SVM) | 91%          |
+| K-Nearest Neighbors (KNN)    | 99% ✅        |
+| Naive Bayes Classifier       | 64%          |
+| Decision Tree                | 98% ✅        |
+| Random Forest                | 99% ✅        |
+
+✅ **KNN** and **Random Forest** achieved the highest accuracy.
+
+---
+
+## 📁 Dataset
+
+- **Source**: UCI Machine Learning Repository
+- **Data**: 8124 instances and 22 categorical attributes
+- **Target**: Mushroom class – `edible` (`e`) or `poisonous` (`p`)
+
+---
+
+## 🧠 Technologies Used
+
+- Python 3
+- Pandas
+- NumPy
+- Scikit-learn (SVM, KNN, Decision Tree, Random Forest, Logistic Regression, Naive Bayes)
+- Jupyter Notebook
+
+---
+
+## 🚨 Disclaimer
+
+> ⚠️ **This project is for educational purposes only.**
+>
+> Do **not** use this model for real-world mushroom identification or consumption decisions.
+> Always consult a qualified **mycologist** or expert before consuming wild mushrooms.
+> Misclassification can lead to **serious health risks or death**.
