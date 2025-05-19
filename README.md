@@ -5,9 +5,9 @@ By leveraging classification algorithms like Decision Trees, Random Forests, and
 ⚠️ Disclaimer: This model is for educational purposes only and should not be used as a substitute for expert knowledge. Misidentification of mushrooms can be dangerous, and users should always consult a mycologist before consuming wild mushrooms.
 
 
-Logistic Regression Model's Accuracy  : 64 %
-SVM Model's Accuracy  : 91 %
-KNN Model's Accuracy  : 99 %
-Naive Bayes Claddifier Model's Accuracy  : 64 %
-Decision Tree Model's Accuracy  : 98 %
-Random Forest Model's Accuracy  : 99 %
+##Logistic Regression Model's Accuracy  : 64 %
+##SVM Model's Accuracy  : 91 %
+##KNN Model's Accuracy  : 99 %
+##Naive Bayes Claddifier Model's Accuracy  : 64 %
+##Decision Tree Model's Accuracy  : 98 %
+##Random Forest Model's Accuracy  : 99 %
